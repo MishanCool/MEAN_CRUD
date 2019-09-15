@@ -5,5 +5,7 @@ mongoose.connect('mongodb://localhost:27017/moder', {
   useUnifiedTopology: true},
       (err) => {
           if(!err) {console.log('MongoDB conection success.')}
-          else {console.log('MongoDB not conected. err : '+err)}
+          else {console.log('MongoDB not conected. err : ' + err)}
   });
+
+require('./people.model');
