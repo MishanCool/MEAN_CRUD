@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const ObjectId = Schema.ObjectId;
  
-const peopleRegister = new Schema({    //create peopleRegister object
+const peopleRegister = new Schema({  //create peopleRegister object
 
   fullName : {
       type : String
