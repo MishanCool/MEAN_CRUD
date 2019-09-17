@@ -8,7 +8,7 @@ var router = express.Router();
 router.get('/', (req,res) => {
     //res.json('Sample text')
     res.render("people/addOrEdit", {
-        viewTitle: "Insert people"
+        viewTitle: "Insert people" //addOrEdit file
     });
 });
 
