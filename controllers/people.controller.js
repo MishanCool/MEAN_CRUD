@@ -6,7 +6,10 @@ var router = express.Router();
 
                 //request handler function
 router.get('/', (req,res) => {
-    res.json('Sample text')
+    //res.json('Sample text')
+    res.render("people/addOrEdit", {
+        viewTitle: "Insert people"
+    });
 });
 
 module.exports = router; //exports router object
